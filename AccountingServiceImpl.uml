@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.sberbank.shopping.service.serviceImpl.AccountingServiceImpl</OriginalElement>
+  <nodes>
+    <node x="95.87878787878782" y="299.0">ru.sberbank.shopping.service.serviceImpl.AccountingServiceImpl</node>
+    <node x="374.7348484848485" y="299.0">ru.sberbank.shopping.service.serviceImpl.HRServiceImpl</node>
+    <node x="601.9090909090909" y="199.0">ru.sberbank.shopping.service.EmployeeService</node>
+    <node x="0.0" y="199.0">ru.sberbank.shopping.service.AccountingService</node>
+    <node x="445.0" y="199.0">org.springframework.stereotype.Service</node>
+    <node x="605.0454545454545" y="299.0">ru.sberbank.shopping.service.serviceImpl.EmployeeServiceImpl</node>
+    <node x="389.04545454545456" y="0.0">ru.sberbank.shopping.entity.Employee</node>
+    <node x="224.0" y="199.0">ru.sberbank.shopping.service.HRService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.sberbank.shopping.service.AccountingService" target="ru.sberbank.shopping.entity.Employee">
+      <point x="0.0" y="-25.0" />
+      <point x="101.5" y="159.0" />
+      <point x="399.96212121212125" y="159.0" />
+      <point x="-54.583333333333314" y="69.5" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.EmployeeServiceImpl" target="org.springframework.stereotype.Service">
+      <point x="-59.66666666666666" y="-25.0" />
+      <point x="634.8787878787879" y="269.0" />
+      <point x="542.5" y="269.0" />
+      <point x="39.0" y="25.0" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.HRServiceImpl" target="ru.sberbank.shopping.entity.Employee">
+      <point x="67.0" y="-25.0" />
+      <point x="542.2348484848485" y="279.0" />
+      <point x="585.3636363636364" y="279.0" />
+      <point x="585.3636363636364" y="179.0" />
+      <point x="465.4621212121212" y="179.0" />
+      <point x="10.916666666666629" y="69.5" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.HRService" target="ru.sberbank.shopping.entity.Employee">
+      <point x="0.0" y="-25.0" />
+      <point x="324.5" y="179.0" />
+      <point x="443.6287878787879" y="179.0" />
+      <point x="-10.916666666666686" y="69.5" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.AccountingServiceImpl" target="org.springframework.stereotype.Service">
+      <point x="67.66666666666674" y="-25.0" />
+      <point x="265.04545454545456" y="279.0" />
+      <point x="464.5" y="279.0" />
+      <point x="-39.0" y="25.0" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.AccountingServiceImpl" target="ru.sberbank.shopping.service.AccountingService">
+      <point x="-67.66666666666663" y="-25.0" />
+      <point x="129.7121212121212" y="279.0" />
+      <point x="101.5" y="279.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.EmployeeServiceImpl" target="ru.sberbank.shopping.entity.Employee">
+      <point x="59.66666666666666" y="-25.0" />
+      <point x="754.2121212121212" y="279.0" />
+      <point x="769.4090909090909" y="279.0" />
+      <point x="769.4090909090909" y="159.0" />
+      <point x="509.1287878787878" y="159.0" />
+      <point x="54.58333333333326" y="69.5" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.HRServiceImpl" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-25.0" />
+      <point x="475.2348484848485" y="279.0" />
+      <point x="503.5" y="279.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.EmployeeServiceImpl" target="ru.sberbank.shopping.service.EmployeeService">
+      <point x="0.0" y="-25.0" />
+      <point x="694.5454545454545" y="279.0" />
+      <point x="680.4090909090909" y="279.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.EmployeeService" target="ru.sberbank.shopping.entity.Employee">
+      <point x="0.0" y="-25.0" />
+      <point x="680.4090909090909" y="169.0" />
+      <point x="487.29545454545456" y="169.0" />
+      <point x="32.75" y="69.5" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.AccountingServiceImpl" target="ru.sberbank.shopping.entity.Employee">
+      <point x="5.6843418860808015E-14" y="-25.0" />
+      <point x="197.37878787878788" y="279.0" />
+      <point x="213.5" y="279.0" />
+      <point x="213.5" y="169.0" />
+      <point x="421.79545454545456" y="169.0" />
+      <point x="-32.75" y="69.5" />
+    </edge>
+    <edge source="ru.sberbank.shopping.service.serviceImpl.HRServiceImpl" target="ru.sberbank.shopping.service.HRService">
+      <point x="-67.0" y="-25.0" />
+      <point x="408.2348484848485" y="269.0" />
+      <point x="324.5" y="269.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="315.5" y="86.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
